@@ -1,0 +1,15 @@
+namespace: dip2-ns
+
+replicas: 5
+replicaCount: 2
+
+image:  
+  repository: diphire/eccomerce
+  tag: v1.0.0
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 3000
+  protocol: TCP
+  app: eccommerce
