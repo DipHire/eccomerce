@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ecommerce:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-03-02T04:48:24.747832601Z"
+    description: A Helm chart for Kubernetes
+    digest: e005d5ad5c0d30cb84457167196d65b2c9b19ea154d03d4e7aedd826cf0af5b0
+    name: ecommerce
+    type: application
+    urls:
+    - https://github.com/DipHire/eccomerce/releases/download/ecommerce-0.1.0/ecommerce-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-03-02T04:48:24.747877839Z"
