@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: hospital-app
+  name: eccomerce-app
   namespace: argocd
 spec:
   project: default
@@ -10,7 +10,7 @@ spec:
     # GitHub Pages URL (Helm repository)
     repoURL: https://github.com/diphire/eccomerce
 
-    chart: hospital-app
+    chart: ecommerce
     # Deploy latest released chart version
     targetRevision: "*" # it will deploy the latest version of the chart available in the helm repository
     helm:
@@ -19,7 +19,7 @@ spec:
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: hospital-ns
+    namespace: eccomerce-ns
 
   syncPolicy:
     automated:
