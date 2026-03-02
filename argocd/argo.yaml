@@ -8,7 +8,7 @@ spec:
 
   source:
     # GitHub Pages URL (Helm repository)
-    repoURL: https://github.com/diphire/eccomerce
+    repoURL: https://diphire.github.io/eccomerce
 
     chart: ecommerce
     # Deploy latest released chart version
